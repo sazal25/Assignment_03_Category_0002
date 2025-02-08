@@ -28,6 +28,7 @@
         extend: {
           colors: {
             clifford: '#da373d',
+            'nature-primary': '#179800',
           }
         }
       }
@@ -37,6 +38,8 @@
 </head>
 <body class="font-sora">
   <header class="md:container mx-auto">
+
+    <!-- nav section -->
     <nav>
     <div class="navbar bg-base-100 justify-between">
       <div class="flex">
@@ -77,7 +80,7 @@
       <div class="space-x-3 hidden lg:flex">
         <a><i class="fa-solid fa-magnifying-glass"></i></a>
         <a href=""><i class="fa-solid fa-cart-shopping "></i></a>
-        <a class="btn btn-outline btn-success text-white text-xl">Login</a>
+        <a class="btn btn-outline btn-success text-black text-xl">Login</a>
         <a class="btn btn-success text-white text-xl">Register</a>
       </div>
 
@@ -97,6 +100,21 @@
       </div>
     </div>
   </nav>
+
+  <!-- hero section -->
+   <div class="text-center mt-20 space-y-9 w-full sm:h-[400px]">
+    <!-- text section -->
+     <div class="space-y-5 px-5">
+      <h1 class="text-5xl font-semibold">Freshness <span class="text-nature-primary">You Can <br>
+        Count</span> On, Prices You’ll Love!</h1>
+      <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+     </div>
+
+     <!-- image section -->
+      <div>
+        <img class="mx-auto w-[1031px]" src="./c2-assets/hero-vegetables.png" alt="">
+      </div>
+   </div>
   </header>
   <main></main>
   <footer></footer>
